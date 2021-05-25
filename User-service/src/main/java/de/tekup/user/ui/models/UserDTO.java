@@ -1,5 +1,7 @@
 package de.tekup.user.ui.models;
 
+import java.util.List;
+
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
@@ -18,5 +20,7 @@ public class UserDTO {
 	private String password;
 	
 	private String userId;
+	
+	private List<AlbumResponseModel> albums;
 
 }
